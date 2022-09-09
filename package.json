@@ -27,7 +27,7 @@
     "eslint-plugin-vue": "9.4.0",
     "eslint-plugin-yml": "1.2.0",
     "husky": "8.0.1",
-    "is-ci": "^3.0.1",
+    "is-ci": "3.0.1",
     "lint-staged": "13.0.3",
     "nuxt": "3.0.0-rc.9",
     "postcss-html": "1.5.0",
