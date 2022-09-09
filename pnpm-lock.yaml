@@ -13,6 +13,7 @@ specifiers:
   eslint-plugin-vue: 9.4.0
   eslint-plugin-yml: 1.2.0
   husky: 8.0.1
+  is-ci: ^3.0.1
   lint-staged: 13.0.3
   nuxt: 3.0.0-rc.9
   postcss-html: 1.5.0
@@ -40,6 +41,7 @@ devDependencies:
   eslint-plugin-vue: 9.4.0_eslint@8.23.0
   eslint-plugin-yml: 1.2.0_eslint@8.23.0
   husky: 8.0.1
+  is-ci: 3.0.1
   lint-staged: 13.0.3
   nuxt: 3.0.0-rc.9_dsrd75777hs6fibw4pgbqghre4
   postcss-html: 1.5.0
@@ -3763,6 +3765,13 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       builtin-modules: 3.3.0
+    dev: true
+
+  /is-ci/3.0.1:
+    resolution: {integrity: sha512-ZYvCgrefwqoQ6yTyYUbQu64HsITZ3NfKX1lzaEYdkTDcfKzzCI/wthRRYKkdjHKFVgNiXKAKm65Zo1pk2as/QQ==}
+    hasBin: true
+    dependencies:
+      ci-info: 3.3.2
     dev: true
 
   /is-core-module/2.10.0:
