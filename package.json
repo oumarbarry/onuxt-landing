@@ -15,7 +15,7 @@
     "format": "prettier -uw --cache ."
   },
   "devDependencies": {
-    "@iconify/json": "2.1.104",
+    "@iconify/json": "2.1.105",
     "@typescript-eslint/eslint-plugin": "5.36.2",
     "@typescript-eslint/parser": "5.36.2",
     "@unocss/nuxt": "0.45.18",
