@@ -1,35 +1,50 @@
-# onuxt-landing : lightweight version of [onuxt](https://github.com/oumarbarry/onuxt)
+# onuxt-landing
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+Lightweight version of [ONUXT](https://github.com/oumarbarry/onuxt)
 
-## Setup
+<br>
 
-Make sure to install the dependencies:
+## Features
+
+- [Nuxt 3](https://v3.nuxtjs.org), [Vue 3](https://vuejs.org), [Vite 3](https://vitejs.dev), [TypeScript](https://www.typescriptlang.org)
+
+- [State Management](./src/stores) ~~via [ Pinia](https://pinia.esm.dev/)~~ via [Nuxt useState](https://v3.nuxtjs.org/guide/features/state-management)
+
+- [UnoCSS](https://github.com/antfu/unocss)
+
+- [Use icons from any icon sets](https://github.com/antfu/unocss/tree/main/packages/preset-icons#unocsspreset-icons)
+
+- [VueUse](https://github.com/antfu/vueuse) -  Collection of useful Vue Composition Utilities
+
+- Lint & Format your code with [ESLint](https://eslint.org), [StyleLint](https://stylelint.io) & [Prettier](https://prettier.io), before you commit with [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged)
+
+- [Deploy on AWS, Azure, Cloudflare, Digital Ocean, Netlify or Vercel...](https://v3.nuxtjs.org/guide/deploy/presets/)
+
+<br>
+
+## Usage
+
+### GitHub Template
+
+[Create a repo from this template on GitHub](https://github.com/oumarbarry/onuxt-landing/generate)
+
+### Clone to local
+
+Use [tiged](https://github.com/tiged/tiged) to clone to your machine with an empty git history:
+
+```bash
+pnpm dlx tiged oumarbarry/onuxt-landing my-app
+
+```
+
+Then, make sure to install the dependencies:
 
 ```bash
 pnpm install
 ```
 
-## Development Server
+<br>
 
-Start the development server on http://localhost:3333
 
-```bash
-pnpm dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-pnpm build
-```
-
-Locally preview production build:
-
-```bash
-pnpm preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+## Contribution
+Feel free to contribute 💻
