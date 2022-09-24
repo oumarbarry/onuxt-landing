@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iconify/json': 2.1.110
+  '@iconify/json': 2.1.112
   '@typescript-eslint/eslint-plugin': 5.38.0
   '@typescript-eslint/parser': 5.38.0
   '@unocss/nuxt': 0.45.22
@@ -29,7 +29,7 @@ specifiers:
   vue-tsc: 0.40.13
 
 devDependencies:
-  '@iconify/json': 2.1.110
+  '@iconify/json': 2.1.112
   '@typescript-eslint/eslint-plugin': 5.38.0_wsb62dxj2oqwgas4kadjymcmry
   '@typescript-eslint/parser': 5.38.0_irgkl5vooow2ydyo6aokmferha
   '@unocss/nuxt': 0.45.22
@@ -459,15 +459,11 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify/json/2.1.110:
-    resolution: {integrity: sha512-y+C2w8jbt0Vnk0RC9tjB0ZnT9apMaxYMv2rzAOMeWfx4SlHbZAyy7UKqbSqih9mHmDJuhs6fk5CZP2+dggIHww==}
+  /@iconify/json/2.1.112:
+    resolution: {integrity: sha512-tJxPwbeFZ99ebrtJ4ZacTh0uXfUw2jkS0ShgIC772LWdLHU5IArvkP8BWuLEUmk5UPXTd4iNe6YuouC8AeYGLg==}
     dependencies:
-      '@iconify/types': 1.1.0
-      pathe: 0.3.7
-    dev: true
-
-  /@iconify/types/1.1.0:
-    resolution: {integrity: sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==}
+      '@iconify/types': 2.0.0
+      pathe: 0.3.8
     dev: true
 
   /@iconify/types/2.0.0:
@@ -601,7 +597,7 @@ packages:
       knitwork: 0.1.2
       lodash.template: 4.5.0
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
       pkg-types: 0.3.5
       scule: 0.3.2
       semver: 7.3.7
@@ -661,7 +657,7 @@ packages:
       knitwork: 0.1.2
       lodash.template: 4.5.0
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
       pkg-types: 0.3.5
       scule: 0.3.2
       semver: 7.3.7
@@ -691,7 +687,7 @@ packages:
       knitwork: 0.1.2
       lodash.template: 4.5.0
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
       pkg-types: 0.3.5
       scule: 0.3.2
       semver: 7.3.7
@@ -714,7 +710,7 @@ packages:
       create-require: 1.1.1
       defu: 6.1.0
       jiti: 1.15.0
-      pathe: 0.3.7
+      pathe: 0.3.8
       pkg-types: 0.3.5
       postcss-import-resolver: 2.0.0
       scule: 0.3.2
