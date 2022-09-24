@@ -8,7 +8,7 @@ Lightweight version of [ONUXT](https://github.com/oumarbarry/onuxt)
 
 - [Nuxt 3](https://v3.nuxtjs.org), [Vue 3](https://vuejs.org), [Vite 3](https://vitejs.dev), [TypeScript](https://www.typescriptlang.org)
 
-- [State Management](./src/stores) ~~via [ Pinia](https://pinia.esm.dev/)~~ via [Nuxt useState](https://v3.nuxtjs.org/guide/features/state-management)
+- State Management via [Nuxt useState](https://v3.nuxtjs.org/guide/features/state-management)
 
 - [UnoCSS](https://github.com/antfu/unocss)
 
