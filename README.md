@@ -12,7 +12,7 @@ Lightweight version of [ONUXT](https://github.com/oumarbarry/onuxt)
 
 - [UnoCSS](https://github.com/antfu/unocss)
 
-- [Use icons from any icon sets](https://github.com/antfu/unocss/tree/main/packages/preset-icons#unocsspreset-icons)
+- Use icons from any icon sets via [NuxtIcon](https://github.com/nuxt-modules/icon)
 
 - [VueUse](https://github.com/antfu/vueuse) -  Collection of useful Vue Composition Utilities
 

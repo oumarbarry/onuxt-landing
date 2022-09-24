@@ -15,7 +15,6 @@
     "format": "prettier -uw --cache ."
   },
   "devDependencies": {
-    "@iconify/json": "2.1.110",
     "@typescript-eslint/eslint-plugin": "5.38.0",
     "@typescript-eslint/parser": "5.38.0",
     "@unocss/nuxt": "0.45.22",
@@ -30,6 +29,7 @@
     "is-ci": "3.0.1",
     "lint-staged": "13.0.3",
     "nuxt": "3.0.0-rc.9",
+    "nuxt-icon": "^0.1.6",
     "postcss-html": "1.5.0",
     "prettier": "2.7.1",
     "sass": "1.54.9",

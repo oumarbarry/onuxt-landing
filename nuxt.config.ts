@@ -5,6 +5,6 @@ export default defineNuxtConfig({
   typescript: { shim: false },
   experimental: { reactivityTransform: true },
 
-  modules: ['@vueuse/nuxt', '@unocss/nuxt'],
+  modules: ['@vueuse/nuxt', '@unocss/nuxt', 'nuxt-icon'],
   unocss: { preflight: true },
 })
