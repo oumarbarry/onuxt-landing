@@ -1,7 +1,12 @@
 export default defineNuxtConfig({
-  typescript: { shim: false, strict: true },
-  experimental: { reactivityTransform: true },
+  devtools: { enabled: true },
 
-  modules: ['@vueuse/nuxt', '@unocss/nuxt', 'nuxt-icon'],
-  unocss: { preflight: true },
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@vueuse/nuxt",
+    "@nuxt/eslint",
+    "nuxt-icon",
+  ],
+
+  eslint: { config: { standalone: false } },
 })

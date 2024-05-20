@@ -1,50 +1,28 @@
 {
+  "type": "module",
   "private": true,
-  "license": "MIT",
-  "packageManager": "pnpm@7.12.2",
   "scripts": {
-    "dev": "nuxt dev -p 3333",
+    "dev": "nuxt dev",
     "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "prepare": "husky install",
-    "typecheck": "nuxi typecheck",
-    "run:eslint": "eslint --fix --cache --cache-location ./node_modules/.cache/eslint/ --ext .ts,.vue,.json,.yaml,.yml .",
-    "run:stylelint": "stylelint --fix --cache --cache-location ./node_modules/.cache/stylelint/ '**/*.{css,scss,vue}'",
-    "lint": "pnpm run:eslint && pnpm run:stylelint",
-    "format": "prettier -uw --cache ."
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.38.0",
-    "@typescript-eslint/parser": "5.38.0",
-    "@unocss/nuxt": "0.45.22",
-    "@vueuse/core": "9.2.0",
-    "@vueuse/nuxt": "9.2.0",
-    "eslint": "8.24.0",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-jsonc": "2.4.0",
-    "eslint-plugin-vue": "9.5.1",
-    "eslint-plugin-yml": "1.2.0",
-    "husky": "8.0.1",
-    "is-ci": "3.0.1",
-    "lint-staged": "13.0.3",
-    "nuxt": "3.0.0-rc.11",
-    "nuxt-icon": "^0.1.6",
-    "postcss-html": "1.5.0",
-    "prettier": "2.7.1",
-    "sass": "1.55.0",
-    "stylelint": "14.12.1",
-    "stylelint-config-css-modules": "4.1.0",
-    "stylelint-config-prettier": "9.0.3",
-    "stylelint-config-recess-order": "3.0.0",
-    "stylelint-config-standard-scss": "5.0.0",
-    "stylelint-config-standard-vue": "1.0.0",
-    "typescript": "4.8.3",
-    "vue-tsc": "0.40.13"
-  },
-  "lint-staged": {
-    "*.{ts,vue,json,yaml,yml}": "eslint --fix --cache --cache-location ./node_modules/.cache/eslint/",
-    "*.{css,scss,vue}": "stylelint --fix --cache --cache-location ./node_modules/.cache/stylelint/",
-    "*": "prettier -wu --cache"
+    "@antfu/eslint-config": "^2.18.1",
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@types/node": "^20.12.12",
+    "@vueuse/nuxt": "^10.9.0",
+    "eslint": "^9.3.0",
+    "nuxt-icon": "^0.6.10",
+    "typescript": "^5.4.5"
   }
 }
